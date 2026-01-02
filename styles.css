@@ -1,3 +1,19 @@
 li {
     list-style-type: none;
+    display: inline;
+    background-color: rgb(230, 236, 241);
+    padding: 10px
+}
+
+.container {
+    display: flex;
+}
+
+.container ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
 }
